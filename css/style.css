@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+header {
+    background: url('../images/canopy-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    padding-bottom: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    margin-top: 98px;
+    font-size: 8em;
+    font-family: 'Indie Flower';
+}
+
+@media only screen and (min-width: 600px) {
+    #textrow {
+        margin-top: 130px;
+    }
+    h1{
+        font-size: 64px;
+    }
+}
+@media only screen and (min-width: 451px) and (max-width: 599px){
+    #textrow{
+        margin-top: 150px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+@media only screen (max-width: 450px){
+    #textrow{
+        margin-top: 145px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
